@@ -67,7 +67,7 @@
             <!-- logo -->
             <div class="flex">
                 <img class="w-[22px] h-[42px]" src="{{ asset('images/O.png') }}" alt="">
-                <span class="font-Semibold mt-[8px] text-[24px] text-[#EEEDDE]">mah</span>
+                <span class="font-semibold mt-[8px] text-[24px] text-[#EEEDDE]">mah</span>
             </div>
             <div class="flex ">
                 <img class="ml-[66.63px]" src="{{ asset('images/ig.png') }}" alt="img">

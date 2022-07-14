@@ -11,8 +11,10 @@
 <section class="bg-[#EEEDDE] max-w-[1366px] max-h-[830px] h-[830px]">
     <header class="flex items-center justify-between ml-[100px] mr-[100px] ">
         <div class="max-w-[72px] max-h-[42] mt-[50px] ">
-            <p class="logo font-semibold text-[36px] italic">0<span class="font-semibold text-[24px] not-italic ml-[1px]"
-            >mah</span> </p>
+            <div class="logo flex">
+                <img class="w-[36px] h-[36px]" src="{{ asset('images/zero.png') }}" alt="">
+                <span class="font-semibold mt-[8px] text-[24px] text-[#203239]">mah</span>
+            </div>
         </div>
         <div class="mt-[63px] ">
             <ul class="text-[16px] font-light text-[#203239] ">
