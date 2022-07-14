@@ -1,6 +1,6 @@
 <section class="bg-[#EEEDDE] max-w-[1366px] max-h-[836px] h-[836px] pt-[68px]">
     <!-- Upper -->
-    <div class=" ml-[100px]">
+    <div class=" mx-[100px]">
         <span class="text-[#FF7527] font-medium text-[16px] ">Pilihan konsumen</span> <br>
         <span class="font-semibold text-[36px] text-[#203239] mt-[8px]">Residen Favorit</span>
     </div>
@@ -32,7 +32,7 @@
             </div>
             <!-- Col 3 -->
             <div class="flex mt-[48px]">
-                <button class="rounded-[10px] border-[1px] border-[#203239] max-w-[234px] max-h-[50px] pr-[41px] pt-[13px] pb-[13px] text-[16px] ">
+                <button class="rounded-[10px] border-[1px] border-[#203239] whitespace-nowrap max-w-[234px] max-h-[50px] pr-[41px] pt-[13px] pb-[13px] text-[16px] ">
                     <i class="fa-solid fa-phone ml-[45.17px] "></i>
                     <span class="font-semibold text-[#203239] mt-[13px] ml-[12px]">Hubungi Kami</span>
                 </button>
