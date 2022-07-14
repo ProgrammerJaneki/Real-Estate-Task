@@ -1,6 +1,13 @@
-<section class="bg-[#EEEDDE] flex max-w-[1366px] max-h-[495px] h-[495px]">
+<style>
+    .footer {
+        font-family: 'Roboto', sans-serif;
+    }
+</style>
+
+<section class="bg-[#EEEDDE] max-w-[1366px] max-h-[495px] h-[495px]">
     <!-- Left Col -->
-    <div class="bg-red-200 max-w-[649px] pr-[52px] max-h-[295px] mt-[48px] ml-[100px]">
+    <div class="flex">
+    <div class="max-w-[649px] pr-[52px] max-h-[295px] mt-[48px] ml-[100px]">
         <!-- Upper Main Row -->
         <span class="font-semibold text-[#203239] text-[36px]">Hubungi Kami</span>
         <!-- Lower Main Row -->
@@ -39,17 +46,37 @@
 
         </div>
     </div>
-    <div class="bg-blue-200 max-w-[649px] max-h-[295px] mt-[48px] ml-[117px] mr-[100px]">
+    <div class="max-w-[649px] max-h-[295px] mt-[48px] ml-[117px] mr-[100px]">
         <!-- Upper Row -->
         <span class="font-semibold text-[#203239] ml-[20px] text-[36px]">Penghargaan</span>
         <!-- Lower Row -->
-        <div class="bg-red-200 flex">
-            <div class="bg-green-300 max-w-[156px] max-h-[104px] mt-[63px]">
+        <div class="flex">
+            <div class="max-w-[156px] max-h-[104px] mt-[63px]">
                 <img src="{{ asset('images/indonesia.png') }}" alt="">
             </div>
-            <div class="bg-red-500 max-w-[211.11px] max-h-[152px] ml-[32px] mt-[39px]">
+            <div class="max-w-[211.11px] max-h-[152px] ml-[32px] mt-[39px]">
                 <img src="{{ asset('images/international.png') }}" alt="">
             </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer flex items-center bg-[#203239] py-[38px] mt-[48px] max-h-[104px] h-[104px]">
+        <!-- Centered Links -->
+        <div class="w-[1366px] flex items-center justify-between text-[#EEEDDE] mx-[100px]">
+            <!-- logo -->
+            <div class="flex">
+                <img class="w-[22px] h-[42px]" src="{{ asset('images/O.png') }}" alt="">
+                <span class="font-Semibold mt-[8px] text-[24px] text-[#EEEDDE]">mah</span>
+            </div>
+            <div class="flex ">
+                <img class="ml-[66.63px]" src="{{ asset('images/ig.png') }}" alt="img">
+                <img class="ml-[66.63px]" src="{{ asset('images/fb.png') }}" alt="img">
+                <img class="ml-[66.63px]" src="{{ asset('images/twitter.png') }}" alt="img">
+                <img class="ml-[66.63px]" src="{{ asset('images/linkedin.png') }}" alt="img">
+            </div>
+            <!-- <i class="fa-brands fa-instagram text-red-200"></i>
+        <i class="fa-brands fa-instagram-square"></i> -->
         </div>
     </div>
 </section>

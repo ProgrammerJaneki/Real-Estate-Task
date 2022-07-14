@@ -17,8 +17,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
-    <!-- <body class="grid place-items-center"> -->
-    <body class="" >
+    <body class="grid place-items-center">
+    <!-- <body class="" > -->
         <!-- Frame 1 -->
         @livewire('home.frame1')
         <!-- Frame 2 -->
