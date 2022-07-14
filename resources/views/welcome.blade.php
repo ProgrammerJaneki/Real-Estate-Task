@@ -17,9 +17,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <!-- <body class="grid place-items-center"> -->
+    <body class="" >
         <!-- Frame 1 -->
         @livewire('home.frame1')
+        <!-- Frame 2 -->
+        @livewire('home.frame2')
+        <!-- Frame 3 -->
+        @livewire('home.frame3')
+        <!-- Frame 4 -->
+        @livewire('home.frame4')
+        <!-- Frame 5 -->
+        @livewire('home.frame5')
 
         @livewireScripts
     </body>
