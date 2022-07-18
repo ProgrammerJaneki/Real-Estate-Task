@@ -4,7 +4,7 @@
     }
 </style>
 
-<section class="bg-[#EEEDDE] max-w-[1366px] max-h-[495px] h-[495px]">
+<section class="bg-[#EEEDDE] max-w-[1366px] max-h-[495px]">
     <!-- Left Col -->
     <div class="flex">
     <div class="max-w-[649px] pr-[52px] max-h-[295px] mt-[48px] ml-[100px]">
@@ -65,15 +65,25 @@
         <!-- Centered Links -->
         <div class="w-[1366px] flex items-center justify-between text-[#EEEDDE] mx-[100px]">
             <!-- logo -->
-            <div class="flex">
-                <img class="w-[22px] h-[42px]" src="{{ asset('images/O.png') }}" alt="">
-                <span class="font-semibold mt-[8px] text-[24px] text-[#EEEDDE]">mah</span>
-            </div>
+            <a href="">
+                <div class="flex">
+                    <img class="w-[22px] h-[42px]" src="{{ asset('images/O.png') }}" alt="">
+                    <span class="font-semibold mt-[8px] text-[24px] text-[#EEEDDE]">mah</span>
+                </div>
+            </a>
             <div class="flex ">
-                <img class="ml-[66.63px]" src="{{ asset('images/ig.png') }}" alt="img">
-                <img class="ml-[66.63px]" src="{{ asset('images/fb.png') }}" alt="img">
-                <img class="ml-[66.63px]" src="{{ asset('images/twitter.png') }}" alt="img">
-                <img class="ml-[66.63px]" src="{{ asset('images/linkedin.png') }}" alt="img">
+                <a href="https://www.instagram.com/janekikuuun/">
+                    <img class="ml-[66.63px]" src="{{ asset('images/ig.png') }}" alt="img">
+                </a>
+                <a href="https://www.facebook.com/janekikuuun">
+                    <img class="ml-[66.63px]" src="{{ asset('images/fb.png') }}" alt="img">
+                </a>
+                <a href="https://twitter.com/jannerebels13">
+                    <img class="ml-[66.63px]" src="{{ asset('images/twitter.png') }}" alt="img">
+                </a>
+                <a href="https://www.linkedin.com/in/jannel-revilla-0a340b243/">
+                    <img class="ml-[66.63px]" src="{{ asset('images/linkedin.png') }}" alt="img">
+                </a>
             </div>
             <!-- <i class="fa-brands fa-instagram text-red-200"></i>
         <i class="fa-brands fa-instagram-square"></i> -->

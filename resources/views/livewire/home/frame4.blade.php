@@ -1,4 +1,4 @@
-<section class="bg-white max-w-[1366px] pt-[68px] max-h-[890px] h-[890px] ">
+<section class="bg-white max-w-[1366px] pt-[68px] max-h-[890px] h-[890px] shadow-lg">
     <!-- First Row -->
     <div class="flex flex-col mx-[100px]">
         <span class="font-medium text-[#FF7527]">Pilihan Auditor</span>

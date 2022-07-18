@@ -8,21 +8,23 @@
     }
 </style>
 
-<section class="bg-[#EEEDDE] max-w-[1366px] max-h-[830px] h-[830px]">
-    <header class="flex items-center justify-between ml-[100px] mr-[100px] ">
+<section class="bg-[#EEEDDE] w-full max-w-[1366px] max-h-[830px] h-[830px]">
+    <header class=" flex items-center lg:justify-center xl:justify-between  lg:bg-red-200 xl:bg-green-200   xl:mx-[100px]   ">
         <div class="max-w-[72px] max-h-[42] mt-[50px] ">
-            <div class="logo flex">
-                <img class="w-[36px] h-[36px]" src="{{ asset('images/zero.png') }}" alt="">
-                <span class="font-semibold mt-[8px] text-[24px] text-[#203239]">mah</span>
-            </div>
+            <a href=" {{ route('about') }} ">
+                <div class="logo flex">
+                    <img class="w-[36px] h-[36px]" src="{{ asset('images/zero.png') }}" alt="">
+                    <span class="font-semibold mt-[8px] text-[24px]  text-[#203239]">mah</span>
+                </div>
+            </a>
         </div>
         <div class="mt-[63px] ">
             <ul class="text-[16px] font-light text-[#203239] ">
-                <li class="inline-block font-semibold  mr-[100px]  border-[#F6762E]"><a href="">Home</a>
+                <li class="inline-block font-semibold  lg:mr-[40px] xl:mr-[100px]  border-[#F6762E]"><a href="">Home</a>
                     <div class="bg-[#F6762E] w-[20px] h-[0.15rem] ml-3 "></div>
                 </li>
-                <li class="inline-block mr-[100px]"><a href="">About</a></li>
-                <li class="inline-block mr-[100px]"><a href="" class="pr-[4px]">Properties</a>
+                <li class="inline-block lg:mr-[40px] xl:mr-[100px] "><a href="">About</a></li>
+                <li class="inline-block lg:mr-[40px] xl:mr-[100px] "><a href="" class="pr-[4px]">Properties</a>
                     <span><i class="fa-solid fa-angle-down"></i></span>
                 </li>
                 <li class="inline-block "><a href="">Contact</a></li>

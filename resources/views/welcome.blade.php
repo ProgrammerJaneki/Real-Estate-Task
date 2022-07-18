@@ -16,20 +16,24 @@
         <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"> -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    </head>
-    <body class="grid place-items-center">
-    <!-- <body class="" > -->
-        <!-- Frame 1 -->
-        @livewire('home.frame1')
-        <!-- Frame 2 -->
-        @livewire('home.frame2')
-        <!-- Frame 3 -->
-        @livewire('home.frame3')
-        <!-- Frame 4 -->
-        @livewire('home.frame4')
-        <!-- Frame 5 -->
-        @livewire('home.frame5')
+        <!-- Flowbite -->
+        <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.7/dist/flowbite.min.css" />
 
+    </head>
+    <!-- <body class="grid place-items-center"> -->
+    <body class="" >
+        <!-- Sample Nav Bar with Responsive Design -->
+        @livewire('home.nav')
+        <!-- Section2 -->
+        <x-section2/>
+        <!-- Section 3 -->
+        <x-section3/>
+        <!-- Section 4 -->
+        <x-section4/>
+        <!-- Section 5 -->
+        <x-section5/>
         @livewireScripts
+
+        <script src="https://unpkg.com/flowbite@1.4.7/dist/flowbite.js"></script>
     </body>
 </html>

@@ -1,6 +1,6 @@
 <section class="bg-[#EEEDDE] max-w-[1366px] max-h-[836px] h-[836px] pt-[68px]">
     <!-- Upper -->
-    <div class=" mx-[100px]">
+    <div class="mx-[100px]">
         <span class="text-[#FF7527] font-medium text-[16px] ">Pilihan konsumen</span> <br>
         <span class="font-semibold text-[36px] text-[#203239] mt-[8px]">Residen Favorit</span>
     </div>
@@ -20,7 +20,7 @@
             </div>
         </div>
         <!-- Second Col -->
-        <div class="">
+        <div class="ml-[64px]">
             <!-- Col 1 -->
             <div class="max-w-[507px]">
                 <span class="font-semibold text-[36px] text-[#203239]">Bangunan yang dirancang oleh Aristektur Handal</span>
@@ -37,7 +37,7 @@
                     <span class="font-semibold text-[#203239] mt-[13px] ml-[12px]">Hubungi Kami</span>
                 </button>
                 <button class="bg-[#203239] rounded-[10px] py-[13px] px-[41px] ml-[48px] max-w-[251px] max-h-[50px]">
-                    <span class="text-white font-semibold text-[16px]">Explore lebih banyak</span>
+                    <span class="text-white font-semibold text-[16px] whitespace-nowrap">Explore lebih banyak</span>
                 </button>
             </div>
         </div>

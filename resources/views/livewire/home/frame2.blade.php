@@ -3,7 +3,7 @@
         background: linear-gradient(to right, #D6DEC7 22%, white 22%);
     }
 </style>
-<section class="bg-white max-w-[1366px] max-h-[672px] h-[672px] pb-[100px] grid grid-cols-2 grid-row-2 ">
+<section class="bg-white max-w-[1366px] max-h-[672px] h-[672px] pb-[100px] grid grid-cols-2 grid-row-2 shadow-lg">
     <!-- Upper Row -->
     <div class="mt-[100px] max-w-[533px] max-h-[108px] w-[533px] ml-[100px] mr-[100px] col-start-1 ">
         <span class="font-semibold text-[36px] text-[#203239] ">
@@ -12,7 +12,7 @@
     <!-- Lower Row -->
     <div class="grid grid-cols-3 gap-[133px] max-w-[1166px] max-h-[300px] w-[1166px] mt-[64px] ml-[100px] row-start-2">
         <!-- Col 1 -->
-        <div class="bg-white rounded-[10px] shadow-md">
+        <div class="bg-white rounded-[10px] shadow-lg">
             <!-- Row 1 -->
             <div class="flex ">
                 <div class="bg-[#FF7527] rounded-[5px] mr-[25px] mt-[17px] w-[8px] h-[30px]"></div>
